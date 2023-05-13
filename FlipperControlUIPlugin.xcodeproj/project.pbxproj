@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42AB619A2A0FE95500D2006E /* FlipperControlUIPlugin.docc in Sources */ = {isa = PBXBuildFile; fileRef = 42AB61992A0FE95500D2006E /* FlipperControlUIPlugin.docc */; };
+		42AB61A02A0FE95500D2006E /* FlipperControlUIPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AB61952A0FE95500D2006E /* FlipperControlUIPlugin.framework */; };
+		42AB61A52A0FE95500D2006E /* FlipperControlUIPluginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB61A42A0FE95500D2006E /* FlipperControlUIPluginTests.swift */; };
+		42AB61A62A0FE95500D2006E /* FlipperControlUIPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AB61982A0FE95500D2006E /* FlipperControlUIPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50560A71B2B8BBFF4D14DAD0 /* libPods-FlipperControlUIPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF7D42CDF2EF5F516889C36 /* libPods-FlipperControlUIPlugin.a */; };
+		5595C820C2D8F2CA3EB43375 /* libPods-FlipperControlUIPlugin-FlipperControlUIPluginTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C515476F0F11F054B7519B /* libPods-FlipperControlUIPlugin-FlipperControlUIPluginTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42AB61A12A0FE95500D2006E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42AB618C2A0FE95500D2006E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42AB61942A0FE95500D2006E;
+			remoteInfo = FlipperControlUIPlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39B11482BCD2127A49D48726 /* Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.debug.xcconfig"; path = "Target Support Files/Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests/Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42AB61952A0FE95500D2006E /* FlipperControlUIPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlipperControlUIPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42AB61982A0FE95500D2006E /* FlipperControlUIPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipperControlUIPlugin.h; sourceTree = "<group>"; };
+		42AB61992A0FE95500D2006E /* FlipperControlUIPlugin.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FlipperControlUIPlugin.docc; sourceTree = "<group>"; };
+		42AB619F2A0FE95500D2006E /* FlipperControlUIPluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipperControlUIPluginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42AB61A42A0FE95500D2006E /* FlipperControlUIPluginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipperControlUIPluginTests.swift; sourceTree = "<group>"; };
+		47EDE361F8C952EAA311071B /* Pods-FlipperControlUIPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipperControlUIPlugin.debug.xcconfig"; path = "Target Support Files/Pods-FlipperControlUIPlugin/Pods-FlipperControlUIPlugin.debug.xcconfig"; sourceTree = "<group>"; };
+		88F086A5BF882F119B199D50 /* Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.release.xcconfig"; path = "Target Support Files/Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests/Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5C515476F0F11F054B7519B /* libPods-FlipperControlUIPlugin-FlipperControlUIPluginTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlipperControlUIPlugin-FlipperControlUIPluginTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF7D42CDF2EF5F516889C36 /* libPods-FlipperControlUIPlugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlipperControlUIPlugin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42E88879BE8853F2AF9D422 /* Pods-FlipperControlUIPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipperControlUIPlugin.release.xcconfig"; path = "Target Support Files/Pods-FlipperControlUIPlugin/Pods-FlipperControlUIPlugin.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42AB61922A0FE95500D2006E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50560A71B2B8BBFF4D14DAD0 /* libPods-FlipperControlUIPlugin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AB619C2A0FE95500D2006E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AB61A02A0FE95500D2006E /* FlipperControlUIPlugin.framework in Frameworks */,
+				5595C820C2D8F2CA3EB43375 /* libPods-FlipperControlUIPlugin-FlipperControlUIPluginTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FEDBBF0BA5B23A165AB5B42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47EDE361F8C952EAA311071B /* Pods-FlipperControlUIPlugin.debug.xcconfig */,
+				D42E88879BE8853F2AF9D422 /* Pods-FlipperControlUIPlugin.release.xcconfig */,
+				39B11482BCD2127A49D48726 /* Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.debug.xcconfig */,
+				88F086A5BF882F119B199D50 /* Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3D918B760E706628E6F35668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEF7D42CDF2EF5F516889C36 /* libPods-FlipperControlUIPlugin.a */,
+				B5C515476F0F11F054B7519B /* libPods-FlipperControlUIPlugin-FlipperControlUIPluginTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42AB618B2A0FE95500D2006E = {
+			isa = PBXGroup;
+			children = (
+				42AB61972A0FE95500D2006E /* FlipperControlUIPlugin */,
+				42AB61A32A0FE95500D2006E /* FlipperControlUIPluginTests */,
+				42AB61962A0FE95500D2006E /* Products */,
+				0FEDBBF0BA5B23A165AB5B42 /* Pods */,
+				3D918B760E706628E6F35668 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42AB61962A0FE95500D2006E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42AB61952A0FE95500D2006E /* FlipperControlUIPlugin.framework */,
+				42AB619F2A0FE95500D2006E /* FlipperControlUIPluginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42AB61972A0FE95500D2006E /* FlipperControlUIPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				42AB61982A0FE95500D2006E /* FlipperControlUIPlugin.h */,
+				42AB61992A0FE95500D2006E /* FlipperControlUIPlugin.docc */,
+			);
+			path = FlipperControlUIPlugin;
+			sourceTree = "<group>";
+		};
+		42AB61A32A0FE95500D2006E /* FlipperControlUIPluginTests */ = {
+			isa = PBXGroup;
+			children = (
+				42AB61A42A0FE95500D2006E /* FlipperControlUIPluginTests.swift */,
+			);
+			path = FlipperControlUIPluginTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		42AB61902A0FE95500D2006E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AB61A62A0FE95500D2006E /* FlipperControlUIPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42AB61942A0FE95500D2006E /* FlipperControlUIPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42AB61A92A0FE95500D2006E /* Build configuration list for PBXNativeTarget "FlipperControlUIPlugin" */;
+			buildPhases = (
+				B0BB50AEECE96824B22F4CE1 /* [CP] Check Pods Manifest.lock */,
+				42AB61902A0FE95500D2006E /* Headers */,
+				42AB61912A0FE95500D2006E /* Sources */,
+				42AB61922A0FE95500D2006E /* Frameworks */,
+				42AB61932A0FE95500D2006E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipperControlUIPlugin;
+			productName = FlipperControlUIPlugin;
+			productReference = 42AB61952A0FE95500D2006E /* FlipperControlUIPlugin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42AB619E2A0FE95500D2006E /* FlipperControlUIPluginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42AB61AC2A0FE95500D2006E /* Build configuration list for PBXNativeTarget "FlipperControlUIPluginTests" */;
+			buildPhases = (
+				C56C84F7CEA417CF78708865 /* [CP] Check Pods Manifest.lock */,
+				42AB619B2A0FE95500D2006E /* Sources */,
+				42AB619C2A0FE95500D2006E /* Frameworks */,
+				42AB619D2A0FE95500D2006E /* Resources */,
+				06D14E587C90D53CB913AB87 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42AB61A22A0FE95500D2006E /* PBXTargetDependency */,
+			);
+			name = FlipperControlUIPluginTests;
+			productName = FlipperControlUIPluginTests;
+			productReference = 42AB619F2A0FE95500D2006E /* FlipperControlUIPluginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42AB618C2A0FE95500D2006E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					42AB61942A0FE95500D2006E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					42AB619E2A0FE95500D2006E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 42AB618F2A0FE95500D2006E /* Build configuration list for PBXProject "FlipperControlUIPlugin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42AB618B2A0FE95500D2006E;
+			productRefGroup = 42AB61962A0FE95500D2006E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AB61942A0FE95500D2006E /* FlipperControlUIPlugin */,
+				42AB619E2A0FE95500D2006E /* FlipperControlUIPluginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42AB61932A0FE95500D2006E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AB619D2A0FE95500D2006E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06D14E587C90D53CB913AB87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests/Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests/Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests/Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0BB50AEECE96824B22F4CE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlipperControlUIPlugin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C56C84F7CEA417CF78708865 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42AB61912A0FE95500D2006E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AB619A2A0FE95500D2006E /* FlipperControlUIPlugin.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AB619B2A0FE95500D2006E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AB61A52A0FE95500D2006E /* FlipperControlUIPluginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42AB61A22A0FE95500D2006E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42AB61942A0FE95500D2006E /* FlipperControlUIPlugin */;
+			targetProxy = 42AB61A12A0FE95500D2006E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42AB61A72A0FE95500D2006E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42AB61A82A0FE95500D2006E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42AB61AA2A0FE95500D2006E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47EDE361F8C952EAA311071B /* Pods-FlipperControlUIPlugin.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WLCQDVKTS9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.p-x9.FlipperControlUIPlugin";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42AB61AB2A0FE95500D2006E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D42E88879BE8853F2AF9D422 /* Pods-FlipperControlUIPlugin.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WLCQDVKTS9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.p-x9.FlipperControlUIPlugin";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42AB61AD2A0FE95500D2006E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39B11482BCD2127A49D48726 /* Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WLCQDVKTS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.p-x9.FlipperControlUIPluginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42AB61AE2A0FE95500D2006E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F086A5BF882F119B199D50 /* Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WLCQDVKTS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.p-x9.FlipperControlUIPluginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42AB618F2A0FE95500D2006E /* Build configuration list for PBXProject "FlipperControlUIPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AB61A72A0FE95500D2006E /* Debug */,
+				42AB61A82A0FE95500D2006E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42AB61A92A0FE95500D2006E /* Build configuration list for PBXNativeTarget "FlipperControlUIPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AB61AA2A0FE95500D2006E /* Debug */,
+				42AB61AB2A0FE95500D2006E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42AB61AC2A0FE95500D2006E /* Build configuration list for PBXNativeTarget "FlipperControlUIPluginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AB61AD2A0FE95500D2006E /* Debug */,
+				42AB61AE2A0FE95500D2006E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42AB618C2A0FE95500D2006E /* Project object */;
+}
