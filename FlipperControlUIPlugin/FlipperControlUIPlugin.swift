@@ -6,7 +6,7 @@
 //
 //
 
-import Foundation
+import UIKit
 import FlipperKit
 import HammerTests
 
@@ -19,7 +19,9 @@ public final class FlipperControlUIPlugin: NSObject, FlipperPlugin {
 
     private weak var window: UIWindow?
 
-    public init?(for window: UIWindow) {
+    private var observations = [NSKeyValueObservation]()
+
+    public init(for window: UIWindow) {
         self.window = window
 
         super.init()
@@ -32,11 +34,12 @@ public final class FlipperControlUIPlugin: NSObject, FlipperPlugin {
     public func didConnect(_ connection: FlipperConnection!) {
         self.connection = connection
 
-        let screenSize = UIScreen.main.bounds.size
-        connection.send("deviceSize", withParams: [
-            "width": screenSize.width,
-            "height": screenSize.height
-        ])
+        registerObservations()
+
+        DispatchQueue.main.async {
+            guard let window = self.window else { return }
+            self.sendDeviceSize(window.frame.size)
+        }
 
         connection.receive("sendTouchEvent") { [weak self] params, _ in
             guard let self,
@@ -50,7 +53,7 @@ public final class FlipperControlUIPlugin: NSObject, FlipperPlugin {
 
             DispatchQueue.main.async {
                 if self.eventGenerator == nil,
-                    let window = self.window {
+                   let window = self.window {
                     self.eventGenerator = try? EventGenerator(window: window)
                 }
                 guard let eventGenerator = self.eventGenerator else { return }
@@ -67,9 +70,35 @@ public final class FlipperControlUIPlugin: NSObject, FlipperPlugin {
     }
 
     public func didDisconnect() {
-
+        self.connection = nil
+        removeObservations()
     }
 
+    private func sendDeviceSize(_ size: CGSize) {
+        guard let connection else { return }
+
+        connection.send("deviceSize", withParams: [
+            "width": size.width,
+            "height": size.height
+        ])
+    }
+}
+
+extension FlipperControlUIPlugin {
+    private func registerObservations() {
+        guard let window else { return }
+
+        let observation = window.observe(\.frame, options: [.new], changeHandler: { [weak self] object, change in
+            guard let self, let size = change.newValue?.size else { return }
+                self.sendDeviceSize(size)
+        })
+        observations.append(observation)
+    }
+
+    private func removeObservations() {
+        observations.forEach({ $0.invalidate() })
+        observations.removeAll()
+    }
 }
 
 enum TouchPhase: String, Codable {

@@ -1,4 +1,4 @@
-platform :ios, '11.0'
+platform :ios, '14.0'
 
 target 'FlipperControlUIPlugin' do
   # use_frameworks!

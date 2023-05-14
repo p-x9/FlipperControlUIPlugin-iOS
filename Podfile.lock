@@ -31,14 +31,14 @@ PODS:
   - FlipperKit/FKPortForwarding (0.189.0):
     - CocoaAsyncSocket (~> 7.6)
     - Flipper-PeerTalk (~> 0.0.4)
-  - HammerTests (0.14.1)
+  - HammerTests (0.14.3)
   - libevent (2.1.12)
   - OpenSSL-Universal (1.1.1100)
   - SocketRocket (0.6.0)
 
 DEPENDENCIES:
   - FlipperKit
-  - HammerTests
+  - HammerTests (from `https://github.com/p-x9/Hammer.git`, branch `flipper`)
 
 SPEC REPOS:
   trunk:
@@ -51,10 +51,19 @@ SPEC REPOS:
     - Flipper-Glog
     - Flipper-PeerTalk
     - FlipperKit
-    - HammerTests
     - libevent
     - OpenSSL-Universal
     - SocketRocket
+
+EXTERNAL SOURCES:
+  HammerTests:
+    :branch: flipper
+    :git: https://github.com/p-x9/Hammer.git
+
+CHECKOUT OPTIONS:
+  HammerTests:
+    :commit: 408538088e9c9fb6f0d6425e0f5c9ccf089ee474
+    :git: https://github.com/p-x9/Hammer.git
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
@@ -66,11 +75,11 @@ SPEC CHECKSUMS:
   Flipper-Glog: 70c50ce58ddaf67dc35180db05f191692570f446
   Flipper-PeerTalk: 116d8f857dc6ef55c7a5a75ea3ceaafe878aadc9
   FlipperKit: 68ebe97318a2eddde21182533ef84f879a22869d
-  HammerTests: df852e3c13ce17baa607531fb312fcc38872a038
+  HammerTests: 623f5ab654e86d6b5b7069170885c9f25de1732e
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
 
-PODFILE CHECKSUM: 9f8ec4b4974012049e876908c65547fe0a9a43e5
+PODFILE CHECKSUM: 67bf1309058683805bbc6a61250a1d4151eb29cf
 
 COCOAPODS: 1.12.1
