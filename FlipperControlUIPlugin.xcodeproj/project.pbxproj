@@ -11,8 +11,9 @@
 		42AB61A02A0FE95500D2006E /* FlipperControlUIPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AB61952A0FE95500D2006E /* FlipperControlUIPlugin.framework */; };
 		42AB61A52A0FE95500D2006E /* FlipperControlUIPluginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB61A42A0FE95500D2006E /* FlipperControlUIPluginTests.swift */; };
 		42AB61A62A0FE95500D2006E /* FlipperControlUIPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AB61982A0FE95500D2006E /* FlipperControlUIPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50560A71B2B8BBFF4D14DAD0 /* libPods-FlipperControlUIPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF7D42CDF2EF5F516889C36 /* libPods-FlipperControlUIPlugin.a */; };
-		5595C820C2D8F2CA3EB43375 /* libPods-FlipperControlUIPlugin-FlipperControlUIPluginTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C515476F0F11F054B7519B /* libPods-FlipperControlUIPlugin-FlipperControlUIPluginTests.a */; };
+		42AB61B02A0FEC0A00D2006E /* FlipperControlUIPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB61AF2A0FEC0A00D2006E /* FlipperControlUIPlugin.swift */; };
+		7DD661BB149FB4ADAB693ED2 /* Pods_FlipperControlUIPlugin_FlipperControlUIPluginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64654A1A618B903BB9EBD3E3 /* Pods_FlipperControlUIPlugin_FlipperControlUIPluginTests.framework */; };
+		F0E11CC5CFE0672464AB19A1 /* Pods_FlipperControlUIPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7E40A63DA45063703758AF /* Pods_FlipperControlUIPlugin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A7E40A63DA45063703758AF /* Pods_FlipperControlUIPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipperControlUIPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B11482BCD2127A49D48726 /* Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.debug.xcconfig"; path = "Target Support Files/Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests/Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.debug.xcconfig"; sourceTree = "<group>"; };
 		42AB61952A0FE95500D2006E /* FlipperControlUIPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlipperControlUIPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42AB61982A0FE95500D2006E /* FlipperControlUIPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipperControlUIPlugin.h; sourceTree = "<group>"; };
 		42AB61992A0FE95500D2006E /* FlipperControlUIPlugin.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FlipperControlUIPlugin.docc; sourceTree = "<group>"; };
 		42AB619F2A0FE95500D2006E /* FlipperControlUIPluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipperControlUIPluginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42AB61A42A0FE95500D2006E /* FlipperControlUIPluginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipperControlUIPluginTests.swift; sourceTree = "<group>"; };
+		42AB61AF2A0FEC0A00D2006E /* FlipperControlUIPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipperControlUIPlugin.swift; sourceTree = "<group>"; };
 		47EDE361F8C952EAA311071B /* Pods-FlipperControlUIPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipperControlUIPlugin.debug.xcconfig"; path = "Target Support Files/Pods-FlipperControlUIPlugin/Pods-FlipperControlUIPlugin.debug.xcconfig"; sourceTree = "<group>"; };
+		64654A1A618B903BB9EBD3E3 /* Pods_FlipperControlUIPlugin_FlipperControlUIPluginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipperControlUIPlugin_FlipperControlUIPluginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F086A5BF882F119B199D50 /* Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.release.xcconfig"; path = "Target Support Files/Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests/Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.release.xcconfig"; sourceTree = "<group>"; };
-		B5C515476F0F11F054B7519B /* libPods-FlipperControlUIPlugin-FlipperControlUIPluginTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlipperControlUIPlugin-FlipperControlUIPluginTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEF7D42CDF2EF5F516889C36 /* libPods-FlipperControlUIPlugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlipperControlUIPlugin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42E88879BE8853F2AF9D422 /* Pods-FlipperControlUIPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipperControlUIPlugin.release.xcconfig"; path = "Target Support Files/Pods-FlipperControlUIPlugin/Pods-FlipperControlUIPlugin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50560A71B2B8BBFF4D14DAD0 /* libPods-FlipperControlUIPlugin.a in Frameworks */,
+				F0E11CC5CFE0672464AB19A1 /* Pods_FlipperControlUIPlugin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42AB61A02A0FE95500D2006E /* FlipperControlUIPlugin.framework in Frameworks */,
-				5595C820C2D8F2CA3EB43375 /* libPods-FlipperControlUIPlugin-FlipperControlUIPluginTests.a in Frameworks */,
+				7DD661BB149FB4ADAB693ED2 /* Pods_FlipperControlUIPlugin_FlipperControlUIPluginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,15 +70,14 @@
 				39B11482BCD2127A49D48726 /* Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.debug.xcconfig */,
 				88F086A5BF882F119B199D50 /* Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		3D918B760E706628E6F35668 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEF7D42CDF2EF5F516889C36 /* libPods-FlipperControlUIPlugin.a */,
-				B5C515476F0F11F054B7519B /* libPods-FlipperControlUIPlugin-FlipperControlUIPluginTests.a */,
+				2A7E40A63DA45063703758AF /* Pods_FlipperControlUIPlugin.framework */,
+				64654A1A618B903BB9EBD3E3 /* Pods_FlipperControlUIPlugin_FlipperControlUIPluginTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,6 +107,7 @@
 			children = (
 				42AB61982A0FE95500D2006E /* FlipperControlUIPlugin.h */,
 				42AB61992A0FE95500D2006E /* FlipperControlUIPlugin.docc */,
+				42AB61AF2A0FEC0A00D2006E /* FlipperControlUIPlugin.swift */,
 			);
 			path = FlipperControlUIPlugin;
 			sourceTree = "<group>";
@@ -147,6 +149,8 @@
 			dependencies = (
 			);
 			name = FlipperControlUIPlugin;
+			packageProductDependencies = (
+			);
 			productName = FlipperControlUIPlugin;
 			productReference = 42AB61952A0FE95500D2006E /* FlipperControlUIPlugin.framework */;
 			productType = "com.apple.product-type.framework";
@@ -183,6 +187,7 @@
 				TargetAttributes = {
 					42AB61942A0FE95500D2006E = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					42AB619E2A0FE95500D2006E = {
 						CreatedOnToolsVersion = 14.2;
@@ -198,6 +203,8 @@
 				Base,
 			);
 			mainGroup = 42AB618B2A0FE95500D2006E;
+			packageReferences = (
+			);
 			productRefGroup = 42AB61962A0FE95500D2006E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -295,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42AB619A2A0FE95500D2006E /* FlipperControlUIPlugin.docc in Sources */,
+				42AB61B02A0FEC0A00D2006E /* FlipperControlUIPlugin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 47EDE361F8C952EAA311071B /* Pods-FlipperControlUIPlugin.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -461,6 +470,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,6 +480,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D42E88879BE8853F2AF9D422 /* Pods-FlipperControlUIPlugin.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -499,6 +510,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 39B11482BCD2127A49D48726 /* Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WLCQDVKTS9;
@@ -516,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88F086A5BF882F119B199D50 /* Pods-FlipperControlUIPlugin-FlipperControlUIPluginTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WLCQDVKTS9;
