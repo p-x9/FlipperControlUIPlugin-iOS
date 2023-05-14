@@ -67,6 +67,35 @@ public final class FlipperControlUIPlugin: NSObject, FlipperPlugin {
                 }
             }
         }
+
+        connection.receive("sendKeyEvent") { [weak self] params, _ in
+            guard let self,
+                  let params,
+                  let data = try? JSONSerialization.data(withJSONObject: params),
+                  let event = try? self.jsonDecoder.decode(KeyEvent.self, from: data) else {
+                return
+            }
+
+            DispatchQueue.main.async {
+                if self.eventGenerator == nil,
+                   let window = self.window {
+                    self.eventGenerator = try? EventGenerator(window: window)
+                }
+                guard let eventGenerator = self.eventGenerator else { return }
+                switch event {
+                case .text(let text):
+                    try? eventGenerator.keyType(text)
+                case .delete:
+                    try? eventGenerator.keyPress(.deleteOrBackspace)
+                case .enter:
+                    try? eventGenerator.keyPress(.returnOrEnter)
+                case .tab:
+                    try? eventGenerator.keyPress(.tab)
+                case .escape:
+                    try? eventGenerator.keyPress(.escape)
+                }
+            }
+        }
     }
 
     public func didDisconnect() {
@@ -111,3 +140,10 @@ struct TouchEvent: Codable {
     let y: CGFloat
 }
 
+enum KeyEvent: Codable {
+    case text(String)
+    case tab
+    case enter
+    case escape
+    case delete
+}
