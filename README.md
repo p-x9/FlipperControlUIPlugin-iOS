@@ -1,5 +1,5 @@
 # FlipperControlUIPlugin-iOS
-Flipper plug-in that can send TouchEvent and Keyboard events from PC to iPhone..(iOS client)
+Flipper plug-in that can send TouchEvent and Keyboard events from PC to iPhone..(iOS client)  
 [Desktop Plugin is Here](https://github.com/p-x9/flipper-plugin-control-ui)
 
 <img width="2032" alt="Desktop" src="https://github.com/p-x9/FlipperControlUIPlugin-iOS/assets/50244599/d0388de0-c37d-429e-be5e-5bf4ef45ec29">
@@ -79,13 +79,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     ```bash
     brew install flipper
     ```
-2. install flipper-plugin-control-ui (plugin for PC)
-   [p-x9/flipper-plugin-control-ui](https://github.com/p-x9/flipper-plugin-control-ui)
-   Please download the PC plug-in from the release section of the Github page below.
+2. install [p-x9/flipper-plugin-control-ui](https://github.com/p-x9/flipper-plugin-control-ui) (plugin for PC)  
+   Please download the PC plug-in from the release section of the Github page below.  
    Once downloaded, install the software from the Flipper application.
 
 3. Connect iPhone to PC and launch application
-   If the connection is successful, a section called 'Control UI' will be added to the left side tab.
+   If the connection is successful, a section called 'Control UI' will be added to the left side tab.  
    Check it as it may be in the 'Disabled' section.
 
 4. Use
