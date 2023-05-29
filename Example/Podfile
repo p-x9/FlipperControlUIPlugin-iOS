@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '15.0'
+
+target 'Example' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for flipper-test
+  pod "FlipperKit"
+  #pod 'FlipperControlUIPlugin', :git => 'https://github.com/p-x9/FlipperControlUIPlugin-iOS.git'
+  pod 'FlipperControlUIPlugin', :path => '../'
+  pod 'HammerTests', :git => "https://github.com/p-x9/Hammer.git", :branch => "flipper"
+
+  target 'ExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ExampleUITests' do
+    # Pods for testing
+  end
+
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |t|
+        t.build_configurations.each do |config|
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+            config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = 'arm64'
+        end
+    end
+end
