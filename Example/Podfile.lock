@@ -1,0 +1,92 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - Flipper (0.189.0):
+    - Flipper-Folly (~> 2.6)
+  - Flipper-Boost-iOSX (1.76.0.1.11)
+  - Flipper-DoubleConversion (3.2.0.1)
+  - Flipper-Fmt (7.1.7)
+  - Flipper-Folly (2.6.10):
+    - Flipper-Boost-iOSX
+    - Flipper-DoubleConversion
+    - Flipper-Fmt (= 7.1.7)
+    - Flipper-Glog
+    - libevent (~> 2.1.12)
+    - OpenSSL-Universal (= 1.1.1100)
+  - Flipper-Glog (0.5.0.5)
+  - Flipper-PeerTalk (0.0.4)
+  - FlipperControlUIPlugin (0.0.1):
+    - FlipperKit/Core
+    - HammerTests
+  - FlipperKit (0.189.0):
+    - FlipperKit/Core (= 0.189.0)
+  - FlipperKit/Core (0.189.0):
+    - Flipper (~> 0.189.0)
+    - FlipperKit/CppBridge
+    - FlipperKit/FBCxxFollyDynamicConvert
+    - FlipperKit/FBDefines
+    - FlipperKit/FKPortForwarding
+    - SocketRocket (~> 0.6.0)
+  - FlipperKit/CppBridge (0.189.0):
+    - Flipper (~> 0.189.0)
+  - FlipperKit/FBCxxFollyDynamicConvert (0.189.0):
+    - Flipper-Folly (~> 2.6)
+  - FlipperKit/FBDefines (0.189.0)
+  - FlipperKit/FKPortForwarding (0.189.0):
+    - CocoaAsyncSocket (~> 7.6)
+    - Flipper-PeerTalk (~> 0.0.4)
+  - HammerTests (0.14.3)
+  - libevent (2.1.12)
+  - OpenSSL-Universal (1.1.1100)
+  - SocketRocket (0.6.0)
+
+DEPENDENCIES:
+  - FlipperControlUIPlugin (from `../`)
+  - FlipperKit
+  - HammerTests (from `https://github.com/p-x9/Hammer.git`, branch `flipper`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - Flipper
+    - Flipper-Boost-iOSX
+    - Flipper-DoubleConversion
+    - Flipper-Fmt
+    - Flipper-Folly
+    - Flipper-Glog
+    - Flipper-PeerTalk
+    - FlipperKit
+    - libevent
+    - OpenSSL-Universal
+    - SocketRocket
+
+EXTERNAL SOURCES:
+  FlipperControlUIPlugin:
+    :path: "../"
+  HammerTests:
+    :branch: flipper
+    :git: https://github.com/p-x9/Hammer.git
+
+CHECKOUT OPTIONS:
+  HammerTests:
+    :commit: 408538088e9c9fb6f0d6425e0f5c9ccf089ee474
+    :git: https://github.com/p-x9/Hammer.git
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  Flipper: 30242e530a7b06d461391dd415380ad4370d4a48
+  Flipper-Boost-iOSX: fd1e2b8cbef7e662a122412d7ac5f5bea715403c
+  Flipper-DoubleConversion: 2dc99b02f658daf147069aad9dbd29d8feb06d30
+  Flipper-Fmt: 60cbdd92fc254826e61d669a5d87ef7015396a9b
+  Flipper-Folly: 584845625005ff068a6ebf41f857f468decd26b3
+  Flipper-Glog: 70c50ce58ddaf67dc35180db05f191692570f446
+  Flipper-PeerTalk: 116d8f857dc6ef55c7a5a75ea3ceaafe878aadc9
+  FlipperControlUIPlugin: 307e5fcfa4c566f2e4bea8229d2b68819884bb61
+  FlipperKit: 68ebe97318a2eddde21182533ef84f879a22869d
+  HammerTests: 623f5ab654e86d6b5b7069170885c9f25de1732e
+  libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
+  OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
+  SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
+
+PODFILE CHECKSUM: 98e8bcd3ea489a9ef53c718a8655a4d0a842b081
+
+COCOAPODS: 1.12.1
